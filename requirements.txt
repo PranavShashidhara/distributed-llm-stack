@@ -1,0 +1,13 @@
+transformers
+sentencepiece
+tokenizers
+numpy
+pandas
+scikit-learn
+tqdm
+langdetect
+wandb
+pyyaml
+datasets
+runpod
+requests
