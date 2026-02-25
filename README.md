@@ -1,4 +1,4 @@
-# Sovereign AI Platform
+# Distributed LLM Orchestration Platform (D-LOP)
 
 A distributed fine-tuning pipeline for Llama 3.1 8B across multiple GPUs using Fully Sharded Data Parallel (FSDP).
 
