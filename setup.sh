@@ -24,7 +24,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 
 echo "Setting up folders..."
-for folder in checkpoints; do
+for folder in checkpoints data; do
     if [ ! -d "$folder" ]; then
         mkdir -p "$folder"
         echo "Created folder: $folder"

@@ -11,3 +11,5 @@ pyyaml
 datasets
 runpod
 requests
+trl 
+liger-kernel
