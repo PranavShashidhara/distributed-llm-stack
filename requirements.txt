@@ -13,3 +13,6 @@ runpod
 requests
 trl 
 liger-kernel
+azure-identity 
+azure-mgmt-compute 
+azure-mgmt-resource
