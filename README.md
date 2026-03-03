@@ -24,7 +24,9 @@ infra/
 
 ### Running the Notebook (Colab)
 
-`main_fine_tuning_pipeline.ipynb` is the primary entrypoint. Open it in Google Colab and run cells top to bottom.
+- `main_fine_tuning_pipeline.ipynb` is the primary entrypoint. Open it in Google Colab and run cells top to bottom.
+- `model_load_to_HF` is the file used to load the data into hugging face and inference the model. 
+- `Inference_Quantization_SQL.ipynb` is the file used to quantize the model and push the model to Hugging face.
 
 **What it does:**
 - Loads and preprocesses the Gretel SQL dataset into ChatML format
