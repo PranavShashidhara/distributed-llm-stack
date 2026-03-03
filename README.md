@@ -38,7 +38,7 @@ infra/
 **Setup:**
 1. Upload the notebook to [colab.research.google.com](https://colab.research.google.com)
 2. Set runtime: `Runtime → Change runtime type → A100 or H100`
-3. Add `HF_TOKEN` to Colab Secrets (🔑 left sidebar)
+3. Add `HF_TOKEN` to Colab Secrets (left sidebar)
 4. Run all cells top to bottom
 
 ---
@@ -69,7 +69,7 @@ All hyperparameters are configured in Cell 4 of the notebook.
 | A100 40GB | 40GB | ~2 hrs |
 | H100 95GB | 95GB | ~25 mins |
 
-> ⚠️ Do not increase `MAX_SEQ_LENGTH` beyond 2048 without reducing batch size — attention is O(n²) and will multiply training time dramatically.
+> Do not increase `MAX_SEQ_LENGTH` beyond 2048 without reducing batch size — attention is O(n²) and will multiply training time dramatically.
 - The dataset's longest entry is under 2,100 characters (~525 tokens at ~4 characters per token), making `MAX_SEQ_LENGTH=1024` a safe and efficient choice for this training run.
 
 ---
